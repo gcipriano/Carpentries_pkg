@@ -169,7 +169,7 @@ Print the unique values listed in the state column using the apply function. Fee
     </div>
 
 ```{r apply_fn-solution}
-
+# FIXME df is not defined. Did you mean `apply(measles[,2], 2, unique)`
 apply(df[,2], 2, unique )
 
 ```
