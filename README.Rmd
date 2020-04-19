@@ -35,6 +35,6 @@ Next, use the below functions to start your tutorial.
 ```{r example, eval = FALSE}
 library(takehomecarpentries)
 
-run_tutorial("takehome_tutorial", package = "takehomecarpentries")
+learnr::run_tutorial("takehome_tutorial", package = "takehomecarpentries")
 
 ```
