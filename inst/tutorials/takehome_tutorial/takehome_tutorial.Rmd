@@ -9,6 +9,7 @@ runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
+library(nycflights13)  # FIXME: This is temporary to allow running this file
 library(learnr)
 library(readr)
 knitr::opts_chunk$set(echo = FALSE)
@@ -221,8 +222,8 @@ Print the unique values listed in the state column using the apply function. Fee
     </div>
 
 ```{r apply_fn-solution}
-
-apply(df[,2], 2, unique )
+# FIXME df is not defined. Did you mean `apply(measles[,2], 2, unique)`
+# apply(df[,2], 2, unique )
 
 ```
 
@@ -271,7 +272,8 @@ Both `|` and `xor()` will return TRUE is one or the other logical comparison ret
 Study the diagram below to get a feel for how these operators work.
 
 ```{r fig1, echo = FALSE, out.width = "100%", fig.cap = "In the figure above, `x` is the left-hand circle, `y` is the right-hand circle, and the shaded region show which parts each operator selects."}
-knitr::include_graphics("images/transform-logical.png")
+# FIXME: This figure is missing
+# knitr::include_graphics("images/transform-logical.png")
 ```
 
 ### Test Your Knowledge
